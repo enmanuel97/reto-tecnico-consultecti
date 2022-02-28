@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Little Miss Princess Bracelet",
+      "price": 5000,
+      "category_id": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0293/9277/products/02-10-22Studio4_ME_ON_09-23-21_14_68544B1_GoldPink_P_0810_KL.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Little Miss Princess Bracelet",
+      "price": 5000,
+      "category_id": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0293/9277/products/02-10-22Studio4_ME_ON_09-23-21_14_68544B1_GoldPink_P_0810_KL.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Little Miss Princess Bracelet",
+      "price": 5000,
+      "category_id": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0293/9277/products/02-10-22Studio4_ME_ON_09-23-21_14_68544B1_GoldPink_P_0810_KL.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Little Miss Princess Bracelet",
+      "price": 5000,
+      "category_id": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0293/9277/products/02-10-22Studio4_ME_ON_09-23-21_14_68544B1_GoldPink_P_0810_KL.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Little Miss Princess Bracelet",
+      "price": 5000,
+      "category_id": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0293/9277/products/02-10-22Studio4_ME_ON_09-23-21_14_68544B1_GoldPink_P_0810_KL.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Little Miss Princess Bracelet",
+      "price": 5000,
+      "category_id": 1,
+      "images": [
+        "https://cdn.shopify.com/s/files/1/0293/9277/products/02-10-22Studio4_ME_ON_09-23-21_14_68544B1_GoldPink_P_0810_KL.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Little Miss Princess Bracelet",
+      "price": 5000,
+      "category_id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Accessories"
+    },
+    {
+      "id": 2,
+      "name": "Top"
+    },
+    {
+      "id": 3,
+      "name": "Shoes"
+    },
+    {
+      "id": 4,
+      "name": "Bottoms"
+    }
+  ]
+}
