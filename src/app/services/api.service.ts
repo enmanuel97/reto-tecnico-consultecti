@@ -1,8 +1,8 @@
-import { environment } from './../../../../../Ionic/programacion-docente/src/environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ICategories } from '../interfaces/categories.interface';
 import { IProducts } from '../interfaces/products.interface';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   	providedIn: 'root'
