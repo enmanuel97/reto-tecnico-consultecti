@@ -44,7 +44,11 @@ export class HomeComponent implements OnInit {
 		this.products = this.productsInCategory;
 	}
 
-	changePage(page: number) {
+	public searchProduct() {
+		this.products = this.productsInCategory.filter(product => product.name.toLowerCase().includes(this.search.toLowerCase()));
+	}
+
+	public changePage(page: number) {
 		this.currentPage = page;
     }
 

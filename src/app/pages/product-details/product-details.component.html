@@ -1,1 +1,25 @@
-<p>product-details works!</p>
+<div class="container pt-5 text-center" *ngIf="loading">
+	<app-loading></app-loading>
+</div>
+<div class="container pt-5" *ngIf="loading == false">
+	<div class="row">
+		<div class="col-4">
+			<ngb-carousel *ngIf="product.images != undefined">
+				<ng-template *ngFor="let image of product.images" ngbSlide>
+				  	<div class="picsum-img-wrapper">
+						<img [src]="image" [alt]="product.name">
+				  	</div>
+				</ng-template>
+			</ngb-carousel>
+			<img class="no-image" *ngIf="product.images == undefined" src="assets/images/noimage.png" [alt]="product.name">
+			<br><br>
+    		<a [routerLink]="['/']" class="btn btn-outline-danger btn-block">Regresar</a>
+		</div>
+
+		<div class="col-8">
+			<h3>{{ product.name }}</h3>
+    		<hr>
+			<p>Precio: ${{product.price | number:'0.2'}}</p>
+		</div>
+	</div>
+</div>

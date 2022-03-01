@@ -23,7 +23,7 @@
 					<div class="card card-search p-0">
 						<div class="card-body">
 							<div class="input-group d-flex w-100 float-start"> 
-								<input [(ngModel)]="search" type="text" class="form-control border-end-0 my-2" placeholder="Search ..."> 
+								<input (keyup)="searchProduct()" [(ngModel)]="search" type="text" class="form-control border-end-0 my-2" placeholder="Search ..."> 
 								<button (click)="cleanFilter()" class="btn input-group-text bg-transparent border-start-0 text-muted my-2"> 
 									<i [ngClass]="search != '' ? 'bi-x-lg' : 'bi-search'" class="bi text-muted" aria-hidden="true"></i> 
 								</button> 
@@ -32,7 +32,7 @@
 					</div>
 				</div>
 				<div class="row" *ngIf="products.length > 0">
-					<app-product class="col-xl-4 col-sm-6 pb-3" *ngFor="let product of products | paginate: { itemsPerPage: 2, currentPage: currentPage, totalItems: products.length}" [product]="product"></app-product>
+					<app-product [routerLink]="['product', product.id]" class="col-xl-4 col-sm-6 pb-3" *ngFor="let product of products | paginate: { itemsPerPage: 3, currentPage: currentPage, totalItems: products.length}" [product]="product"></app-product>
 					<div class="col-md-12 text-center">
 						<pagination-controls 
 							previousLabel="Prev"

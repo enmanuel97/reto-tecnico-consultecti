@@ -14,12 +14,11 @@ export class ProductDetailsComponent implements OnInit {
     public product!: IProducts;
 
     constructor(private activatedRoute: ActivatedRoute, private apiService: ApiService) {
-        console.log('ProductDetailsComponent');
         this.activatedRoute.params.subscribe(params => {
             this.apiService.getProductById(params['id']).subscribe(product => {
-                console.log(product);
                 this.loading = false;
                 this.product = product;
+                console.log(product);
             });
         });
     }

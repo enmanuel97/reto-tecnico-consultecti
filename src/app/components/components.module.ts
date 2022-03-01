@@ -1,21 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProductsComponent } from './products/products.component';
 import { ProductComponent } from './product/product.component';
 import { NoImagePipe } from '../pipes/no-image.pipe';
+import { LoadingComponent } from './loading/loading.component';
 
 @NgModule({
     declarations: [
-      	ProductsComponent,
       	ProductComponent,
-        NoImagePipe
+        NoImagePipe,
+        LoadingComponent
     ],
     imports: [
         CommonModule
     ],
 	exports: [
-		ProductsComponent,
-		ProductComponent
+		ProductComponent,
+        LoadingComponent
     ],
 })
 export class ComponentsModule { }
