@@ -1,0 +1,26 @@
+.product-label {
+    margin-bottom: 0.5rem;
+    padding: 0.4em 0.6em;
+    font-size: 75%;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 7px;
+    background: rgba(178, 177, 183, 0.1);
+    float: right;
+}
+
+.input-group .btn {
+	border: 1px solid #ced4da !important;
+	border-left: 0px !important;
+}
+
+.form-control:focus {
+	border-color: #ced4da !important;
+	box-shadow: none;
+}
+
+.card-search .card-body {
+	padding-left: 24px;
+	padding-right: 24px;
+}
