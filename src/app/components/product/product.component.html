@@ -1,0 +1,13 @@
+<div class="card">
+	<div class="card-body">
+		<div class="product-img position-relative">
+			<img [src]="product.images | noImage" alt="" class="img-fluid mx-auto d-block">
+		</div>
+		<div class="text-center">
+			<h5 class="mb-3 text-truncate">
+				<a href="javascript: void(0);" class="text-dark">{{product.name}}</a>
+			</h5>
+			<h5 class="my-0"><b>${{product.price | number:'0.2'}}</b></h5>
+		</div>
+	</div>
+</div>

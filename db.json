@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Little Miss Princess Bracelet",
+      "name": "1-Little Miss Princess Bracelet",
       "price": 5000,
       "category_id": 1,
       "images": [
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "name": "Little Miss Princess Bracelet",
+      "name": "2-Little Miss Princess Bracelet",
       "price": 5000,
       "category_id": 1,
       "images": [
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "name": "Little Miss Princess Bracelet",
+      "name": "3-Little Miss Princess Bracelet",
       "price": 5000,
       "category_id": 1,
       "images": [
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "name": "Little Miss Princess Bracelet",
+      "name": "4-Little Miss Princess Bracelet",
       "price": 5000,
       "category_id": 1,
       "images": [
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "name": "Little Miss Princess Bracelet",
+      "name": "5-Little Miss Princess Bracelet",
       "price": 5000,
       "category_id": 1,
       "images": [
@@ -47,7 +47,7 @@
     },
     {
       "id": 6,
-      "name": "Little Miss Princess Bracelet",
+      "name": "6-Little Miss Princess Bracelet",
       "price": 5000,
       "category_id": 1,
       "images": [
@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "name": "Little Miss Princess Bracelet",
+      "name": "7-Little Miss Princess Bracelet",
       "price": 5000,
       "category_id": 1
     }
