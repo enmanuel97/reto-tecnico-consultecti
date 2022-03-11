@@ -19,7 +19,7 @@ export class ApiService {
 	}
 
 	public getProductById(id: number) {
-		return this.httpClient.get<IProducts>(`${environment.apiUrl}/products/${id}`);
+		return this.httpClient.get<IProducts>(`${environment.apiUrl}/product/${id}`);
 	}
 
 	public getProductsByCategory(categoryId: number) {
